@@ -10,5 +10,8 @@
     "functional"
   ],
   "author": "Brian Ford <btford@umich.edu>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.3"
+  }
 }
