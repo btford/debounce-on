@@ -34,7 +34,7 @@ You can pass a hash function that determines what calls the debouncer should coa
 var debounceOn = require('debounce-on');
 
 var debounceHttp = debounceOn(sendHttpRequest, function (url) {
-  return (url.match(/^https?:\/\/([^\/])\/?/) || {})[1];
+  return (url.match(/^https?:\/\/([^\/]+)\/?/) || {})[1];
 });
 debounceHttp('https://google.com/a');
 debounceHttp('https://google.com/b');
