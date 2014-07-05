@@ -4,7 +4,7 @@
   "description": "debounce function calls based on arguments",
   "main": "debounce.js",
   "scripts": {
-    "test": "jasmine-node test/*.spec.js"
+    "test": "./node_modules/.bin/jasmine-node test"
   },
   "keywords": [
     "functional"
