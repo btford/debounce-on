@@ -1,4 +1,4 @@
-# debounce-on
+# debounce-on [![Build Status](https://travis-ci.org/btford/debounce-on.svg?branch=master)](https://travis-ci.org/btford/debounce-on)
 
 debounce a function based on its arguments
 
