@@ -1,0 +1,14 @@
+{
+  "name": "debounce-on",
+  "version": "0.0.0",
+  "description": "debounce function calls based on arguments",
+  "main": "debounce.js",
+  "scripts": {
+    "test": "jasmine-node test/*.spec.js"
+  },
+  "keywords": [
+    "functional"
+  ],
+  "author": "Brian Ford <btford@umich.edu>",
+  "license": "MIT"
+}
